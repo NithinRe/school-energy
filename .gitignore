@@ -1,0 +1,9 @@
+# Downloaded source files and generated datasets are rebuilt by the notebooks and are not stored in the repository.
+data/**
+!data/**/
+!data/**/.gitkeep
+
+# Notebook and OS clutter
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
